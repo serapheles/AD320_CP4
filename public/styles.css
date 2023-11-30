@@ -1,0 +1,43 @@
+/**
+* Kyle Potempa
+* 11/29/23
+*/
+:root {
+    color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+}
+
+#title {
+    text-align: center;
+}
+
+#betaButton {
+    position: absolute;
+    right: 17%;
+}
+
+#alphaZone {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#betaZone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#foot {
+    position: absolute;
+    bottom: 5%;
+}

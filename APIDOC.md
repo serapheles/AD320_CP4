@@ -1,47 +1,44 @@
-# *FILL IN NAME* API Documentation
-*Fill in a short description here about the API's purpose.*
+# CP4 API Documentation
+This api serves no purpose.
 
-## *Fill in Endpoint 1 Title*
-**Request Format:** *Fill in example request format*
+## Roll a d20
+**Request Format:** /beta
 
-**Request Type:** *Fill in request type*
+**Request Type:** GET
 
 **Returned Data Format**: Plain Text
 
-**Description:** *Fill in description*
+**Description:** Returns a number between 1 and 20, inclusively. Conceptually, this is intended to resemble rolling a 20 sided dice, but no guarantees are made regarding the statistical distribution of results.
 
-
-**Example Request:** *Fill in example request*
+**Example Request:** /beta
 
 **Example Response:**
-*Fill in example response in the ticks*
 
 ```
-
+4
 ```
 
 **Error Handling:**
-*Fill in an example of the error handling*
+N/A
 
-## *Fill in Endpoint 2 Title*
-**Request Format:** *Fill in example request format*
+## What does the animal say?
+**Request Format:** /alpha
 
-**Request Type:** *Fill in request type*
+**Request Type:** GET
 
 **Returned Data Format**: JSON
 
-**Description:** *Fill in description*
+**Description:** Returns a json with an animal and what it says.
 
-**Example Request:** *Fill in example request*
+**Example Request:** /alpha
 
 **Example Response:**
-*Fill in example response in the {}*
 
 ```json
 {
-
+"worm" : "Do you still love me?"
 }
 ```
 
 **Error Handling:**
-*Fill in an example of the error handling*
+N/A
